@@ -1,0 +1,15 @@
+.site-header{height:82px;padding:0 7.1%;display:flex;align-items:center;justify-content:space-between;position:absolute;top:0;left:0;width:100%;z-index:50;border-bottom:1px solid rgba(180,198,239,.09);background:rgba(7,9,20,.45);backdrop-filter:blur(16px)}
+.brand{font-size:28px;font-weight:800;letter-spacing:-.12em}
+.brand small{font:9px "DM Mono",monospace;letter-spacing:.18em;color:#9ba7c2;margin-left:13px;vertical-align:middle}
+.nav-links{display:flex;align-items:center;gap:34px}
+.nav-links>a{font-size:11px;color:#aab2c9;transition:color .2s}
+.nav-links>a:hover{color:#fff}
+.nav-links .nav-cta{border:1px solid rgba(112,166,255,.45);padding:11px 16px;color:#e7efff;display:flex;align-items:center;gap:10px}
+.mobile-menu{display:none;background:none;border:0;color:white}
+
+.theme-switcher{display:inline-flex;align-items:center;gap:7px;color:var(--accent-2);border:1px solid var(--line);padding:8px 9px;background:rgba(255,255,255,.025)}
+.theme-switcher select{max-width:105px;background:transparent;border:0;outline:0;color:#cbd7ed;font-size:10px;cursor:pointer}
+.theme-switcher option{background:#0c1122;color:#edf3ff}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+@media(max-width:760px){.theme-switcher{margin:12px 0;align-self:flex-start}.theme-switcher select{max-width:150px}}
+@media(min-width:761px) and (max-width:1200px){.nav-links{gap:16px}.theme-switcher{padding:7px 6px}.theme-switcher select{max-width:88px}}

@@ -1,0 +1,31 @@
+.pulse-dot,.form-topline i{width:6px;height:6px;border-radius:50%;background:#6ce3c1;box-shadow:0 0 12px #6ce3c1}
+.contact-section{background:radial-gradient(ellipse at 80% 60%,rgba(33,65,119,.19),transparent 50%),#080b17}
+.contact-layout{display:grid;grid-template-columns:.8fr 1.1fr;gap:12%;margin-top:48px}
+.contact-big-text{font-size:clamp(35px,5vw,58px);font-weight:800;line-height:.99;letter-spacing:-.075em}
+.contact-big-text span{color:var(--cyan)}
+.contact-aside>p{font-size:12px;line-height:1.9;color:#9ba8c2;max-width:330px;margin:25px 0}
+.email-link{display:inline-flex;align-items:center;gap:9px;color:#b7d5ff;font-size:11px;border-bottom:1px solid rgba(112,169,255,.3);padding-bottom:10px}
+.email-link svg:first-child{color:#78baff}
+.social-links{display:flex;flex-direction:column;gap:12px;margin-top:25px}
+.social-links a,.social-links span{display:flex;align-items:center;gap:9px;color:#8c9ab6;font-size:10px}
+.social-links svg{color:#a4b6d8}
+.contact-form-wrap{padding:27px;border:1px solid rgba(137,174,239,.18);background:linear-gradient(145deg,rgba(18,29,54,.9),rgba(10,15,30,.92));box-shadow:0 25px 70px rgba(0,0,0,.16)}
+.form-topline{display:flex;justify-content:space-between;padding-bottom:19px;border-bottom:1px solid var(--line);font:8px "DM Mono",monospace;letter-spacing:.16em;color:#9aaac8}
+.form-topline span:last-child{display:flex;align-items:center;gap:8px}
+.form-topline i{width:5px;height:5px}
+.contact-form{padding-top:22px;display:flex;flex-direction:column;gap:17px}
+.contact-form label{display:flex;flex-direction:column;gap:9px;color:#9ba9c5;font:8px "DM Mono",monospace;letter-spacing:.14em}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.contact-form input:not(.honeypot),.contact-form textarea{width:100%;border:1px solid rgba(142,169,218,.16);background:rgba(4,9,20,.5);padding:13px 14px;color:#edf3ff;font:11px Manrope;outline:none;resize:vertical;transition:border .2s,box-shadow .2s}
+.contact-form input:focus,.contact-form textarea:focus{border-color:rgba(103,169,255,.65);box-shadow:0 0 0 3px rgba(70,131,230,.09)}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:#687692}
+.honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;opacity:0!important}
+.submit-button{border:0;align-self:flex-start;min-width:175px}
+.submit-button:disabled{opacity:.65;cursor:wait}
+.spin{animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.form-alert{display:flex;align-items:flex-start;gap:9px;padding:12px;font-size:11px;line-height:1.6}
+.form-alert.success{color:#9af0d2;background:rgba(43,166,125,.1);border:1px solid rgba(78,205,162,.24)}
+.form-alert.error{color:#ffb6b6;background:rgba(191,63,63,.1);border:1px solid rgba(255,113,113,.24)}
+.form-note,.privacy-note{font-size:9px;color:#8491ad;line-height:1.7;margin:0}
+.form-note code{color:#b8d2ff}

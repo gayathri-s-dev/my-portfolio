@@ -1,0 +1,16 @@
+.recognition-section{background:linear-gradient(180deg,#090d1b,#070914)}
+.recognition-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px;margin-top:47px}
+.achievement-card,.cert-card{min-height:260px;border:1px solid rgba(136,171,235,.17);background:linear-gradient(140deg,#111d37,#0b1122);padding:29px;position:relative;overflow:hidden}
+.achievement-symbol{width:43px;height:43px;display:grid;place-items:center;color:#80bbff;border:1px solid rgba(112,173,255,.3);background:rgba(63,127,227,.1);margin-bottom:24px}
+.achievement-card .eyebrow,.cert-card .eyebrow{font-size:8px}
+.achievement-card h3{font-size:19px;line-height:1.45;letter-spacing:-.035em;max-width:360px;margin:12px 0}
+.achievement-card p{font-size:11px;line-height:1.8;color:#99a6c0;max-width:400px}
+.achievement-index{position:absolute;bottom:22px;right:25px;color:#7184a8;font:8px "DM Mono",monospace;letter-spacing:.12em}
+.cert-card{background:linear-gradient(140deg,#17162f,#0c1022)}
+.cert-row{display:grid;grid-template-columns:35px 1fr 18px;align-items:center;gap:10px;padding:18px 0;border-bottom:1px solid var(--line)}
+.cert-row:first-of-type{margin-top:15px}
+.cert-row span{font:9px "DM Mono",monospace;color:#9b89e8}
+.cert-row strong{font-size:12px;font-weight:600}
+.cert-row svg{color:#8e9cbb}
+.cert-foot{display:flex;justify-content:space-between;align-items:center;margin-top:22px;color:#8996b2;font:8px "DM Mono",monospace;letter-spacing:.14em}
+.cert-foot svg{color:#b39cff}

@@ -1,0 +1,28 @@
+:root {
+  --accent: #65a8ff;
+  --accent-2: #65e3f5;
+  --accent-alt: #a68aff;
+  --accent-strong: #477cf0;
+  --accent-glow: rgba(101, 168, 255, .24);
+}
+:root[data-theme="violet"] {
+  --accent: #b49aff;
+  --accent-2: #e2a6ff;
+  --accent-alt: #7e8cff;
+  --accent-strong: #8057e8;
+  --accent-glow: rgba(180, 154, 255, .25);
+}
+:root[data-theme="emerald"] {
+  --accent: #63d9b4;
+  --accent-2: #8af0dc;
+  --accent-alt: #8db9ff;
+  --accent-strong: #209b79;
+  --accent-glow: rgba(99, 217, 180, .23);
+}
+:root[data-theme="sunset"] {
+  --accent: #ffb36f;
+  --accent-2: #ffd28a;
+  --accent-alt: #ff8fba;
+  --accent-strong: #e87948;
+  --accent-glow: rgba(255, 179, 111, .23);
+}

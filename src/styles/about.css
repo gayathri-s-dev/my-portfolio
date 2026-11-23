@@ -1,0 +1,17 @@
+.about-section{background:linear-gradient(180deg,#080b17,#090d1b)}
+.about-layout{display:grid;grid-template-columns:1.05fr .8fr;gap:12%;align-items:center}
+.about-lead{font-size:22px;line-height:1.6;letter-spacing:-.035em;color:#e3e9f7;max-width:610px;margin:38px 0 18px}
+.about-lead span{color:var(--accent-2)}
+.about-tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:30px}
+.about-tags span,.tool-chips span{font:9px "DM Mono",monospace;letter-spacing:.08em;color:#9db5dc;border:1px solid var(--line);padding:10px 12px;background:rgba(255,255,255,.025)}
+.about-visual{border:1px solid rgba(142,171,230,.18);background:linear-gradient(145deg,rgba(19,31,59,.84),rgba(10,15,31,.8));padding:25px;position:relative;overflow:hidden}
+.about-visual:before{content:"";position:absolute;width:260px;height:260px;border:1px solid rgba(103,160,255,.1);border-radius:50%;right:-120px;top:-130px;box-shadow:0 0 0 25px rgba(103,160,255,.025),0 0 0 50px rgba(103,160,255,.02)}
+.about-visual-top,.visual-foot{display:flex;justify-content:space-between;align-items:center;color:#8495b7;font:9px "DM Mono",monospace;letter-spacing:.15em}
+.about-visual-top svg{color:var(--cyan)}
+.approach-stack{display:grid;gap:12px;margin:35px 0}
+.approach-card{display:grid;grid-template-columns:32px 1fr 30px;align-items:center;gap:12px;padding:17px;background:rgba(255,255,255,.035);border:1px solid rgba(149,177,232,.12)}
+.approach-card>span{color:#6787ba;font:10px "DM Mono",monospace}
+.approach-card strong{display:block;font-size:13px}
+.approach-card small{display:block;color:#8592ae;font-size:10px;margin-top:5px}
+.approach-card svg{color:var(--accent-2);width:19px}
+.visual-foot{padding-top:16px;border-top:1px solid var(--line);font-size:8px}

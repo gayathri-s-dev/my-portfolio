@@ -1,0 +1,5 @@
+.site-footer{padding:27px 7.1%;border-top:1px solid var(--line);display:flex;align-items:center;gap:30px;color:#7e8ba6;font:8px "DM Mono",monospace;letter-spacing:.13em}
+.footer-brand{font:800 27px Manrope;letter-spacing:-.12em;color:white}
+.site-footer>a:nth-of-type(2){margin-left:auto;color:#a9b8d5}
+.site-footer small{font:8px "DM Mono",monospace}
+.cursor-hint{position:fixed;left:22px;bottom:25px;z-index:30;display:flex;align-items:center;gap:7px;color:#64718d;font:8px "DM Mono",monospace;letter-spacing:.13em;pointer-events:none}
